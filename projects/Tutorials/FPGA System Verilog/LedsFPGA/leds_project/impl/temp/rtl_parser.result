@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "F:/Gowin/Projects/LedsFPGA/leds_project/src/top.sv",
+  "InstLine" : 9,
+  "InstName" : "bin2leds",
+  "ModuleFile" : "F:/Gowin/Projects/LedsFPGA/leds_project/src/top.sv",
+  "ModuleLine" : 9,
+  "ModuleName" : "bin2leds"
+ }
+]

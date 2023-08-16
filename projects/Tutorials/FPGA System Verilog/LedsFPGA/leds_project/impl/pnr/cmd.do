@@ -1,0 +1,12 @@
+-d F:\Gowin\Projects\LedsFPGA\leds_project\impl\gwsynthesis\leds_project.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst F:\Gowin\Projects\LedsFPGA\leds_project\src\leds_project.cst
+-cfg F:\Gowin\Projects\LedsFPGA\leds_project\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
