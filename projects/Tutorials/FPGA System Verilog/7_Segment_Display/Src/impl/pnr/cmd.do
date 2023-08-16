@@ -1,0 +1,12 @@
+-d F:\Gowin\Projects\7SegmentFPGA\fpga_sv\impl\gwsynthesis\7Segments.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\7Segments.cst
+-cfg F:\Gowin\Projects\7SegmentFPGA\fpga_sv\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

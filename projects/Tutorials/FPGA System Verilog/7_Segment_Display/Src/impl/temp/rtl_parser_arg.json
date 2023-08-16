@@ -1,0 +1,52 @@
+{
+ "Files" : [
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/bin2bcd_7segments.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/bin2bcd_pkg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/common_pkg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/decoder.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/decoder_pkg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/digital_tube.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/multiplex.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/digitalTube_mux.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/digitalTube__mux_pkg.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}
