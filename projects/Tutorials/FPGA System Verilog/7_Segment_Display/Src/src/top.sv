@@ -3,8 +3,6 @@
  * DATE: 14/Ago/2023
  * PROJECT: 
  */
-import bin2bcd_pkg::*;
-import decoder_pkg::*;
 import common_pkg::*;
  
 module bin2bcd
@@ -71,6 +69,5 @@ digitalTube_mux digitalTube_mux_top
     .clk(clk),
     .digital_tube_mux_enable(digital_tube_enable_w)
 );
-
 
 endmodule 

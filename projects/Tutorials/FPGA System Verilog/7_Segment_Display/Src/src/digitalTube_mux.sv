@@ -4,7 +4,6 @@
  * PROJECT: 
  */
 
-import digitalTube_mux_pkg::*;
 import common_pkg::*;
 
 module digitalTube_mux

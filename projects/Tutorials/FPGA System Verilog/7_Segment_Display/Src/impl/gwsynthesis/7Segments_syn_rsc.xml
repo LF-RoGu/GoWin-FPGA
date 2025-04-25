@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="bin2bcd">
-    <SubModule name="decoder_bin2bcd_top" Alu="3" Lut="1" Dsp="1"/>
-    <SubModule name="multiplex_top" Lut="29"/>
-    <SubModule name="digitalTube_mux_top" Register="25" Alu="7" Lut="45"/>
-</Module>

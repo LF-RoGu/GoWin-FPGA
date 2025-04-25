@@ -15,9 +15,9 @@ module bin2leds
     output data2display_t data2display_units
 );
 	 
-assign data2display_units[0] = binary_data[0];
-assign data2display_units[1] = binary_data[1];
-assign data2display_units[2] = binary_data[2];
-assign data2display_units[3] = binary_data[3];
+assign data2display_units[0] = ~binary_data[0];
+assign data2display_units[1] = ~binary_data[1];
+assign data2display_units[2] = ~binary_data[2];
+assign data2display_units[3] = ~binary_data[3];
 
  endmodule 
