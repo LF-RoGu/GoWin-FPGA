@@ -37,6 +37,11 @@
 	/** Data Types*/
 	typedef logic [PARAM_DATA_WIDTH - 1:0] binary_data_t;
     typedef logic [PARAM_DW_DIGITAL_TUBE - 1:0] digital_tube_t;
+    /****************************************
+     * Sys Clock
+     ****************************************/
+    localparam clkFreq_FPGA = 27_000_000;
+    localparam clkFreq_TargetHz = 10_000;
     
  
  endpackage: common_pkg

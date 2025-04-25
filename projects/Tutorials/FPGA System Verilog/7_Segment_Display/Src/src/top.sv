@@ -47,12 +47,27 @@ bin2bcd_segments bin2bcd_segments_hundreds_top
     .data2display(bin2bcd_hundreds_output_w)
 );
 
+multiplex multiplex_top
+(
+    /** INPUT*/
+    .mux_selector(digital_tube),
+    .mux_data_units(bin2bcd_units_output_w),
+    .mux_data_tens(bin2bcd_tens_output_w),
+    .mux_data_hundreds(bin2bcd_hundreds_output_w),
+    /** OUTPUT*/
+    .mux_data_output(data2display_units)
+);
+
 digitalTube digitalTube_top
 (
-    .digital_tube(4'b1111),
+    .digital_tube(digital_tube_enable_w),
     .digital_tube_enable(digital_tube)
 );
 
-assign data2display_units = bin2bcd_units_output_w;
+digitalTube_mux digitalTube_mux_top
+(
+    .clk(clk),
+    .digital_tube_mux_enable(digital_tube_enable_w)
+);
 
 endmodule 

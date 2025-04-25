@@ -22,16 +22,16 @@ module multiplex
 always_comb
 begin
     case(mux_selector)
-        4'b0001: begin
+        4'b1000: begin
 		 	mux_data_output = mux_data_units;
 	 	end 
-        4'b0010: begin
+        4'b0100: begin
 		 	mux_data_output = mux_data_tens;
 	 	end
-        4'b0100: begin
+        4'b0010: begin
 		 	mux_data_output = mux_data_hundreds;
 	 	end
-        4'b1000: begin
+        4'b0001: begin
             mux_data_output = 7'b1111111;
 	 	end
 	 	default: begin
