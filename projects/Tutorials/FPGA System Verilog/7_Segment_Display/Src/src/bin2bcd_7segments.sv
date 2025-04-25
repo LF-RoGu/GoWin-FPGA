@@ -4,7 +4,6 @@
  * PROJECT: 
  */
  
-import bin2bcd_pkg::*;
 import common_pkg::*;
  
  module bin2bcd_segments
@@ -18,7 +17,7 @@ import common_pkg::*;
 /* Obtain the numbers necesary to ignite each display */ 
  always_comb begin
  
- 	case(bcd_data)		 //   gfedcba
+ 	case(bcd_data)		 //   gefdcba
 	 	4'b0000: begin
 		 	data2display = 7'b1000000; /** 0*/
 	 	end 
@@ -26,16 +25,16 @@ import common_pkg::*;
 		 	data2display = 7'b1111001; /** 1*/
 	 	end 
 	 	4'b0010: begin
-		 	data2display = 7'b0100100; /** 2*/
+		 	data2display = 7'b0010100; /** 2*/
 	 	end 
 	 	4'b0011: begin
 		 	data2display = 7'b0110000; /** 3*/
 	 	end 
 	 	4'b0100: begin
-		 	data2display = 7'b0011001; /** 4*/
+		 	data2display = 7'b0101001; /** 4*/
 	 	end 
 	 	4'b0101: begin
-		 	data2display = 7'b0010010; /** 5*/
+		 	data2display = 7'b0100010; /** 5*/
 	 	end 
 	 	4'b0110: begin
 		 	data2display = 7'b0000010; /** 6*/
@@ -47,7 +46,7 @@ import common_pkg::*;
 		 	data2display = 7'b0000000; /** 8*/
 	 	end 
 	 	4'b1001: begin
-		 	data2display = 7'b0011000; /** 9*/
+		 	data2display = 7'b0101000; /** 9*/
 	 	end 
 	 	4'b1010: begin
 		 	data2display = 7'b0001000; /** A*/

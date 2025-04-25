@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="bin2bcd" T_Register="25(0)" T_Alu="10(0)" T_Lut="74(0)" T_MULT9X9="1(0)">
- <SubModule name="decoder_bin2bcd_top" Alu="3" Lut="1" MULT9X9="1" T_Alu="3(3)" T_Lut="1(1)" T_MULT9X9="1(1)"/>
- <SubModule name="bin2bcd_segments_units_top" Lut="7" T_Lut="7(7)"/>
- <SubModule name="bin2bcd_segments_tens_top" Lut="7" T_Lut="7(7)"/>
- <SubModule name="multiplex_top" Lut="14" T_Lut="14(14)"/>
- <SubModule name="digitalTube_mux_top" Register="25" Alu="7" Lut="45" T_Register="25(25)" T_Alu="7(7)" T_Lut="45(45)"/>
-</Module>

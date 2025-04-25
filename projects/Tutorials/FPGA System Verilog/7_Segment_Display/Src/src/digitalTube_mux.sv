@@ -9,7 +9,7 @@ import common_pkg::*;
 
 module digitalTube_mux
 #(
-    parameter counter_objective = clkFreq_FPGA / (4*clkFreq_TargetHz)
+    parameter counter_objective = clkFreq_FPGA / (2*clkFreq_TargetHz)
 )
 (
     /** INPUT*/
