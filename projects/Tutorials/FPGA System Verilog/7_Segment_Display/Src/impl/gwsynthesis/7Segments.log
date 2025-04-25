@@ -1,27 +1,27 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\bin2bcd_pkg.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\common_pkg.v'
-WARN  (EX2582) : Parameter 'PARAM_DATA_WIDTH' declared inside package 'common_pkg' shall be treated as localparam("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\common_pkg.v":10)
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\bin2bcd_7segments.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\decoder_pkg.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\decoder.sv'
-Undeclared symbol 'binary_data_sign', assumed default net type 'wire'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\decoder.sv":26)
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digital_tube.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\multiplex.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\top.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digitalTube__mux_pkg.sv'
-Analyzing Verilog file 'F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digitalTube_mux.sv'
-Compiling module 'bin2bcd'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\top.sv":10)
-Compiling module 'decoder_bin2bcd'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\decoder.sv":10)
-WARN  (EX3791) : Expression size 22 truncated to fit in target size 4("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\decoder.sv":30)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\decoder.sv":31)
-Compiling module 'bin2bcd_segments'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\bin2bcd_7segments.sv":10)
-Compiling module 'multiplex'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\multiplex.sv":9)
-Compiling module 'digitalTube'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digital_tube.sv":9)
-Compiling module 'digitalTube_mux'("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digitalTube_mux.sv":10)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digitalTube_mux.sv":27)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\digitalTube_mux.sv":41)
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\bin2bcd_pkg.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\common_pkg.v'
+WARN  (EX2582) : Parameter 'PARAM_DATA_WIDTH' declared inside package 'common_pkg' shall be treated as localparam("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\common_pkg.v":10)
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\bin2bcd_7segments.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\decoder_pkg.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\decoder.sv'
+Undeclared symbol 'binary_data_sign', assumed default net type 'wire'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\decoder.sv":26)
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digitalTube__mux_pkg.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digitalTube_mux.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digital_tube.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\multiplex.sv'
+Analyzing Verilog file 'D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\top.sv'
+Compiling module 'bin2bcd'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\top.sv":10)
+Compiling module 'decoder_bin2bcd'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\decoder.sv":10)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 4("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\decoder.sv":30)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\decoder.sv":31)
+Compiling module 'bin2bcd_segments'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\bin2bcd_7segments.sv":10)
+Compiling module 'multiplex'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\multiplex.sv":9)
+Compiling module 'digitalTube'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digital_tube.sv":9)
+Compiling module 'digitalTube_mux'("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digitalTube_mux.sv":10)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digitalTube_mux.sv":27)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\digitalTube_mux.sv":41)
 NOTE  (EX0101) : Current top module is "bin2bcd"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -39,10 +39,8 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "bin2bcd_segments" instantiated to "bin2bcd_segments_hundreds_top" is swept in optimizing("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\top.sv":50)
-WARN  (NL0002) : The module "bin2bcd_segments" instantiated to "bin2bcd_segments_tens_top" is swept in optimizing("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\top.sv":45)
-WARN  (NL0002) : The module "bin2bcd_segments" instantiated to "bin2bcd_segments_units_top" is swept in optimizing("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\top.sv":40)
-WARN  (NL0002) : The module "digitalTube" instantiated to "digitalTube_top" is swept in optimizing("F:\Gowin\Projects\7SegmentFPGA\fpga_sv\src\top.sv":67)
-[95%] Generate netlist file "F:\Gowin\Projects\7SegmentFPGA\fpga_sv\impl\gwsynthesis\7Segments.vg" completed
-[100%] Generate report file "F:\Gowin\Projects\7SegmentFPGA\fpga_sv\impl\gwsynthesis\7Segments_syn.rpt.html" completed
+WARN  (NL0002) : The module "bin2bcd_segments" instantiated to "bin2bcd_segments_hundreds_top" is swept in optimizing("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\top.sv":50)
+WARN  (NL0002) : The module "digitalTube" instantiated to "digitalTube_top" is swept in optimizing("D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\src\top.sv":67)
+[95%] Generate netlist file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\impl\gwsynthesis\7Segments.vg" completed
+[100%] Generate report file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\7_Segment_Display\Src\impl\gwsynthesis\7Segments_syn.rpt.html" completed
 GowinSynthesis finish

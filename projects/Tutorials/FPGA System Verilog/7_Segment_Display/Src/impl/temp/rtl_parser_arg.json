@@ -1,43 +1,44 @@
 {
+ "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/bin2bcd_7segments.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/bin2bcd_7segments.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/bin2bcd_pkg.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/bin2bcd_pkg.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/common_pkg.v",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/common_pkg.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/decoder.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/decoder.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/decoder_pkg.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/decoder_pkg.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/digital_tube.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/digitalTube__mux_pkg.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/multiplex.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/digitalTube_mux.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/top.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/digital_tube.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/digitalTube_mux.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/multiplex.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/src/digitalTube__mux_pkg.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
    "Type" : "verilog"
   }
  ],
@@ -45,7 +46,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "F:/Gowin/Projects/7SegmentFPGA/fpga_sv/impl/temp/rtl_parser.result",
+ "ResultFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
