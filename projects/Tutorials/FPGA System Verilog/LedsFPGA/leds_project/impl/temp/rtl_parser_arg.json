@@ -1,11 +1,12 @@
 {
+ "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "F:/Gowin/Projects/LedsFPGA/leds_project/src/fpga_pkg.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/LedsFPGA/leds_project/src/fpga_pkg.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/Gowin/Projects/LedsFPGA/leds_project/src/top.sv",
+   "Path" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/LedsFPGA/leds_project/src/top.sv",
    "Type" : "verilog"
   }
  ],
@@ -13,7 +14,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "F:/Gowin/Projects/LedsFPGA/leds_project/impl/temp/rtl_parser.result",
+ "ResultFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/LedsFPGA/leds_project/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"

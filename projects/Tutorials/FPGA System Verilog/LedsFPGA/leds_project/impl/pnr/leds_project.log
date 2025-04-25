@@ -1,7 +1,7 @@
-Reading netlist file: "F:\Gowin\Projects\LedsFPGA\leds_project\impl\gwsynthesis\leds_project.vg"
-Parsing netlist file "F:\Gowin\Projects\LedsFPGA\leds_project\impl\gwsynthesis\leds_project.vg" completed
+Reading netlist file: "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\gwsynthesis\leds_project.vg"
+Parsing netlist file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\gwsynthesis\leds_project.vg" completed
 Processing netlist completed
-Reading constraint file: "F:\Gowin\Projects\LedsFPGA\leds_project\src\leds_project.cst"
+Reading constraint file: "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\src\leds_project.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -20,10 +20,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "F:\Gowin\Projects\LedsFPGA\leds_project\impl\pnr\leds_project.power.html" completed
-Generate file "F:\Gowin\Projects\LedsFPGA\leds_project\impl\pnr\leds_project.pin.html" completed
-Generate file "F:\Gowin\Projects\LedsFPGA\leds_project\impl\pnr\leds_project.rpt.html" completed
-Generate file "F:\Gowin\Projects\LedsFPGA\leds_project\impl\pnr\leds_project.rpt.txt" completed
-Generate file "F:\Gowin\Projects\LedsFPGA\leds_project\impl\pnr\leds_project.tr.html" completed
-Mon Aug 14 11:41:49 2023
+Generate file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\pnr\leds_project.power.html" completed
+Generate file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\pnr\leds_project.pin.html" completed
+Generate file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\pnr\leds_project.rpt.html" completed
+Generate file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\pnr\leds_project.rpt.txt" completed
+Generate file "D:\AditionalMaterial\GoWin-FPGA\projects\Tutorials\FPGA System Verilog\LedsFPGA\leds_project\impl\pnr\leds_project.tr.html" completed
+Fri Apr 25 14:16:00 2025
 
