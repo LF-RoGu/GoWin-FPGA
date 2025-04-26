@@ -1,3 +1,3 @@
 vlib work
-vlog ../src/clkDivider.sv
+vlog ../src/*.sv
 vlog ../tb/clkDivider_tb.sv

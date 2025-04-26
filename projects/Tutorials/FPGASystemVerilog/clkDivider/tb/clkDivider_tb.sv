@@ -5,38 +5,41 @@
  */
 
 
-module tb_clkDivider;
+module tb_top;
 
-    // Parameters
-    localparam DIVISOR = 10; // Small divisor for fast simulation
-
-    // Signals
     logic clk;
     logic rst;
-    logic clk_out;
+    logic [7:0] leds;
+    logic slow_clk;
 
-    // Instantiate clkDivider
-    clkDivider #(
-        .DIVISOR(DIVISOR)
-    ) uut (
+    // DUTs (Design Under Test)
+    clkDivider
+    #(
+        .DIVISOR(10)  // Adjust if needed
+    )  
+    clkDivider_top (
         .clk(clk),
         .rst(rst),
-        .clk_out(clk_out)
+        .clk_out(slow_clk)
     );
 
-    // Clock generator (50MHz simulation clock)
+    ledCounter ledCounter_top (
+        .clk(slow_clk),
+        .rst(rst),
+        .leds(leds)
+    );
+
+    // Clock generation (50MHz simulation clock)
     initial clk = 0;
-    always #10 clk = ~clk; // 20ns period = 50MHz clock
+    always #10 clk = ~clk;
 
     // Stimulus
     initial begin
-        // Initialize signals
         rst = 1;
         #100;
         rst = 0;
 
-        // Run simulation for enough time
-        #2000;
+        #10_000_000;
         $stop;
     end
 

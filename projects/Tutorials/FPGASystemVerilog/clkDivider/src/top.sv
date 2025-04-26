@@ -14,7 +14,7 @@ wire logic slow_clk;
 
 clkDivider 
 #(
-    .DIVISOR(25_000_000)  // Adjust if needed
+    .DIVISOR(10)  // Adjust if needed
 ) 
 clkDivider_top (
     .clk(clk),
