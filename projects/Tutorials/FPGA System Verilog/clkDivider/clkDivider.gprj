@@ -7,7 +7,6 @@
     <FileList>
         <File path="src/clkDivider.sv" type="file.verilog" enable="1"/>
         <File path="src/common_pkg.v" type="file.verilog" enable="1"/>
-        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
         <File path="src/ledCounter.sv" type="file.verilog" enable="1"/>
         <File path="src/top.sv" type="file.verilog" enable="1"/>
         <File path="src/clkDivider.cst" type="file.cst" enable="1"/>

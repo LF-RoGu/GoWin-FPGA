@@ -5,37 +5,31 @@
  */
 
 module top(
-    input  logic rst,
+    input logic clk,
+    input logic rst,
     output logic [7:0] leds
 );
 
-wire clk_internal;
-logic slow_clk;
+wire logic slow_clk;
+logic internal_clk;
 
-GOWIN_OSC 
-#(
-    .OSC_EN("ENABLE"),  // enable oscillator
-    .OSC_FREQ("2.08")   // or "25" for 25 MHz if available
-) 
-internal_clk_inst 
-(
-    .osc_clk(clk_internal)
-);
+initial internal_clk = 0;
+always #500_000_000  internal_clk = ~internal_clk;  // 20ns period = 50MHz clock
 
 clkDivider 
 #(
-    .DIVISOR(27_000_000) // default to divide 27MHz to ~1Hz
+    .DIVISOR(50)  // Adjust if needed
 ) 
-u_clkDivider 
-(
-    .clk_in(clk_internal),
+clkDivider_top (
+    .clk(clk),
     .rst(rst),
     .clk_out(slow_clk)
 );
 
-ledCounter u_ledCounter 
+ledCounter 
+ledCounter_top 
 (
-    .clk(slow_clk),
+    .clk(internal_clk),
     .rst(rst),
     .leds(leds)
 );

@@ -11,7 +11,9 @@ module ledCounter(
 
 always_ff @(posedge clk or posedge rst) begin
     if (rst) begin
-        leds <= 'd0;
+        leds <= 8'd0;
+    end else if (leds == 8'd255) begin
+        leds <= 8'd0; // Reset on overflow
     end else begin
         leds <= leds + 8'd1;
     end
