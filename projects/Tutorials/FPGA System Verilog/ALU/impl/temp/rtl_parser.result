@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/ALU/tb/alu_tb.sv",
+  "InstLine" : 5,
+  "InstName" : "tb_alu",
+  "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/ALU/tb/alu_tb.sv",
+  "ModuleLine" : 5,
+  "ModuleName" : "tb_alu",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/ALU/tb/alu_tb.sv",
+    "InstLine" : 13,
+    "InstName" : "uut",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/ALU/src/alu.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "alu"
+   }
+  ]
+ }
+]
