@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGASystemVerilog/clkDivider/script
+vclkDivider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1745672690
+!i10b 1
+!s100 a]JJz@fN3baI`fWZ7PY;g2
+IH;@_=zlfE8EGD7Sg8<MC50
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clkDivider_sv_unit
+S1
+R0
+w1745671603
+8../src/clkDivider.sv
+F../src/clkDivider.sv
+L0 7
+Z4 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z5 !s108 1745672690.000000
+!s107 ../src/clkDivider.sv|
+!s90 -reportprogress|300|../src/clkDivider.sv|
+!i113 1
+Z6 tCvgOpt 0
+nclk@divider
+vtb_clkDivider
+R1
+R2
+!i10b 1
+!s100 4VR]VFI@WimAYPF@`]ed<0
+I_UmOoaJoMTT=?VC=ZoFQb1
+R3
+!s105 clkDivider_tb_sv_unit
+S1
+R0
+w1745671816
+8../tb/clkDivider_tb.sv
+F../tb/clkDivider_tb.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../tb/clkDivider_tb.sv|
+!s90 -reportprogress|300|../tb/clkDivider_tb.sv|
+!i113 1
+R6
+ntb_clk@divider

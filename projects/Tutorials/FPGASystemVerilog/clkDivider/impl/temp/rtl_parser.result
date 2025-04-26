@@ -1,0 +1,46 @@
+[
+ {
+  "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/top.sv",
+  "InstLine" : 7,
+  "InstName" : "top",
+  "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/top.sv",
+  "ModuleLine" : 7,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/top.sv",
+    "InstLine" : 19,
+    "InstName" : "clkDivider_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/clkDivider.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "clkDivider"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/top.sv",
+    "InstLine" : 26,
+    "InstName" : "ledCounter_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/ledCounter.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "ledCounter"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/tb/clkDivider_tb.sv",
+  "InstLine" : 8,
+  "InstName" : "tb_clkDivider",
+  "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/tb/clkDivider_tb.sv",
+  "ModuleLine" : 8,
+  "ModuleName" : "tb_clkDivider",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/tb/clkDivider_tb.sv",
+    "InstLine" : 21,
+    "InstName" : "uut",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/clkDivider/src/clkDivider.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "clkDivider"
+   }
+  ]
+ }
+]

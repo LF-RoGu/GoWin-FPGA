@@ -1,0 +1,76 @@
+[
+ {
+  "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/clkDivider.sv",
+  "InstLine" : 9,
+  "InstName" : "clkDivider",
+  "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/clkDivider.sv",
+  "ModuleLine" : 9,
+  "ModuleName" : "clkDivider"
+ },
+ {
+  "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+  "InstLine" : 8,
+  "InstName" : "bin2bcd",
+  "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+  "ModuleLine" : 8,
+  "ModuleName" : "bin2bcd",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 24,
+    "InstName" : "decoder_bin2bcd_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/decoder.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "decoder_bin2bcd"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 34,
+    "InstName" : "bin2bcd_segments_units_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/bin2bcd_7segments.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "bin2bcd_segments"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 39,
+    "InstName" : "bin2bcd_segments_tens_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/bin2bcd_7segments.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "bin2bcd_segments"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 44,
+    "InstName" : "bin2bcd_segments_hundreds_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/bin2bcd_7segments.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "bin2bcd_segments"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 50,
+    "InstName" : "multiplex_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/multiplex.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "multiplex"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 61,
+    "InstName" : "digitalTube_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/digital_tube.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "digitalTube"
+   },
+   {
+    "InstFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/top.sv",
+    "InstLine" : 67,
+    "InstName" : "digitalTube_mux_top",
+    "ModuleFile" : "D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA System Verilog/7_Segment_Display/Src/src/digitalTube_mux.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "digitalTube_mux"
+   }
+  ]
+ }
+]

@@ -1,0 +1,37 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.01 Education (64-bit)"
+//Sat Apr 26 14:49:18 2025
+
+//Source file index table:
+//file0 "\D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA\ System\ Verilog/clkDivider/src/clkDivider.sv"
+//file1 "\D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA\ System\ Verilog/clkDivider/src/common_pkg.v"
+//file2 "\D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA\ System\ Verilog/clkDivider/src/ledCounter.sv"
+//file3 "\D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA\ System\ Verilog/clkDivider/src/top.sv"
+//file4 "\D:/AditionalMaterial/GoWin-FPGA/projects/Tutorials/FPGA\ System\ Verilog/clkDivider/tb/clkDivider_tb.sv"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+Xb7ZZLIojRj+hhjKwqT8co77FwDc12XdwcJWGJOPu+EkKKjCKvIhxw5fUZUnGO+jcsKYLtGLYT5W
++py2Z3SV6jec1Y0+n8WikPm2k5d8UCn+GzlOqcBMDZnHYo7yHwzXaZqH6a+FffvgAOJXqJHiu9Ge
+oQuKARqQHQLD5f/XweJ6OY7sRDA6PlHkIkSeNvxVhEsmAVeSIq+UIKTaFyX16WqEA3LENWEHYj/y
+Ppq9YtahM9cxJspT5S1Z3p4M/PRHQzSEFULg6I2ORjnnZLsQlCmvXyQbh/jKdQMuAEeLnxHROini
+nx8bP2ZZ8EG/+txigrG7d9LMfUAoR064QRiiOA==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=224)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+0nqLaBT1ki5vHbNEBBy/RzMstkiX5r7mdJLHupgjvK/SCDqghXFoerD3lUx5WkC2BScIoYPA2wlO
+GlnJvUYodknFdBK3rjUwLTz5HKwaq3PLZDqkF3XrzAnQr/kqVeyCA4D2LJcpa5hKf359uqtqebHE
+bwbiss6qJ4TaXay6bfsiCLJylXaLzfv8NJKFXow5VTKRFIjjXL0cJMry7MxXTgZKh0GqPlbnKmtg
+X73KkYHnVH+auAiChcWG+yn1arlmQZ1I1S1yXUkcbs6N5aGgOrJrS6N3JKe6piNJrMF2MiM=
+`pragma protect end_protected
