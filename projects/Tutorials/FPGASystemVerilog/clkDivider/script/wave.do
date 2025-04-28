@@ -1,7 +1,6 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /tb_top/clk
-add wave -noupdate -radix decimal /tb_top/leds
 add wave -noupdate /tb_top/slow_clk
 add wave -noupdate -divider clkDivider
 add wave -noupdate /tb_top/clkDivider_top/DIVISOR
@@ -9,10 +8,10 @@ add wave -noupdate /tb_top/clkDivider_top/clk
 add wave -noupdate /tb_top/clkDivider_top/rst
 add wave -noupdate /tb_top/clkDivider_top/clk_out
 add wave -noupdate -radix decimal /tb_top/clkDivider_top/counter
-add wave -noupdate -divider ledCounter
-add wave -noupdate /tb_top/ledCounter_top/clk
-add wave -noupdate /tb_top/ledCounter_top/rst
-add wave -noupdate -radix decimal /tb_top/ledCounter_top/leds
+add wave -noupdate -divider bitShifter
+add wave -noupdate /tb_top/bitShifter_top/clk
+add wave -noupdate /tb_top/bitShifter_top/rst
+add wave -noupdate /tb_top/bitShifter_top/out_bits
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {32155 ps} 0}
 quietly wave cursor active 1

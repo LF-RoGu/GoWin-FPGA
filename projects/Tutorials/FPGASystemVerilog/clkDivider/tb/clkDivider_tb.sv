@@ -9,13 +9,13 @@ module tb_top;
 
     logic clk;
     logic rst;
-    logic [7:0] leds;
+    logic [7:0] out_bits;
     logic slow_clk;
 
     // DUTs (Design Under Test)
     clkDivider
     #(
-        .DIVISOR(10)  // Adjust if needed
+        .DIVISOR(100)  // Adjust if needed
     )  
     clkDivider_top (
         .clk(clk),
@@ -23,10 +23,10 @@ module tb_top;
         .clk_out(slow_clk)
     );
 
-    ledCounter ledCounter_top (
+    bitShifter bitShifter_top (
         .clk(slow_clk),
         .rst(rst),
-        .leds(leds)
+        .out_bits(out_bits)
     );
 
     // Clock generation (50MHz simulation clock)
