@@ -4,6 +4,29 @@
  * PROJECT: clkDivider
  */
 
+/*
+ * Clock Divider Module
+ * 
+ * DIVISOR Formula:
+ * 
+ *    DIVISOR = F_in / (2 * F_out)
+ * 
+ * Where:
+ *    - F_in  = Input clock frequency (in Hz)
+ *    - F_out = Desired output clock frequency (in Hz)
+ *
+ * Behavior:
+ *    - clk_out toggles every DIVISOR input clock cycles.
+ *    - Full period of clk_out = 2 * DIVISOR cycles.
+ *
+ * Example:
+ *    Input clock (F_in) = 195,000 Hz
+ *    Desired output (F_out) = 1 Hz
+ *    
+ *    DIVISOR = 195,000 / (2 * 1) = 97,500
+ */
+
+
 module clkDivider 
 #(
     parameter integer DIVISOR = 25_000_000  // Default to ~1Hz from 25MHz clock
