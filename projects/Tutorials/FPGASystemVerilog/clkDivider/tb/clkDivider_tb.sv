@@ -15,7 +15,7 @@ module tb_top;
     // DUTs (Design Under Test)
     clkDivider
     #(
-        .DIVISOR(100)  // Adjust if needed
+        .DIVISOR(97_500)  // Adjust if needed
     )  
     clkDivider_top (
         .clk(clk),

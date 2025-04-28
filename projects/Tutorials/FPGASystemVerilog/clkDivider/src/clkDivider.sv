@@ -25,7 +25,7 @@ always @(posedge clk or posedge rst) begin
             counter <= 0;
             clk_out <= ~clk_out;  // Toggle output clock
         end else begin
-            counter <= counter + 1;
+            counter <= counter + 'd1;
         end
     end
 end
